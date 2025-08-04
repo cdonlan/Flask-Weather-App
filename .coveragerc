@@ -1,0 +1,15 @@
+[run]
+source = .
+data_file = coverage/.coverage
+omit =
+    */venv/*
+    */.venv/*
+    */env/*
+    */tests/*
+    */test_*
+    setup.py
+    htmlcov/*
+
+[report]
+exclude_lines =
+    if __name__ == "__main__":

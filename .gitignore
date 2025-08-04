@@ -17,6 +17,13 @@ new_venv/
 # SQLite database
 weather.db
 
+# Coverage reports
+.coverage
+.coverage.*
+coverage/
+htmlcov/
+.pytest_cache/
+
 # OS files
 .DS_Store
 Thumbs.db
